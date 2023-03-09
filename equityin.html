@@ -22,6 +22,12 @@
 </head>
 <body>
 
+	<div class="star-box">
+		<div id='stars'></div>
+		<div id='stars2'></div>
+		<div id='stars3'></div>
+	</div>
+
 	<div id="top"></div>
 	<section class="section project-sec" id="grained">
 		<div class="custom-container-fluid">
@@ -118,5 +124,18 @@
 	</section>
 
 	<script src="assets/libs/jquery/jquery-3.5.1.min.js"></script>
+	<script src="assets/libs/grained/grained.min.js"></script>
+	<script>
+		var options = {
+		  animate: true,
+		  patternWidth: 100,
+		  patternHeight: 100,
+		  grainOpacity: 0.06,
+		  grainDensity: 1,
+		  grainWidth: 1,
+		  grainHeight: 1
+		}
+		grained('#grained', options);
+	</script>
 </body>
 </html>
