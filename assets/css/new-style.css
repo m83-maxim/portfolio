@@ -321,7 +321,7 @@ section .site-text-new{
 }
 .hr hr{
 	height: 1px;
-	opacity: 0.15;
+	opacity: 0.1;
 }
 .btn-boxess a{
 	outline-width: 0px;
