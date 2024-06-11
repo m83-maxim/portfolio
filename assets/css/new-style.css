@@ -388,7 +388,7 @@ section .site-text-new{
         margin-bottom: 50px;
     }
 	.body-case-box .text-desc-new{
-		padding-top: 16px;
+		padding-top: 10px;
 		font-size: 15px;
 	}
 	.new-hr-b-b{
@@ -450,7 +450,7 @@ section .site-text-new{
         margin-bottom: 50px;
     }
 	.body-case-box .text-desc-new{
-		padding-top: 16px;
+		padding-top: 10px;
 		font-size: 15px;
 	}
 	.new-hr-b-b{
@@ -516,7 +516,7 @@ section .site-text-new{
         margin-bottom: 50px;
     }
 	.body-case-box .text-desc-new{
-		padding-top: 16px;
+		padding-top: 10px;
 		font-size: 15px;
 	}
 	.new-hr-b-b{
@@ -573,7 +573,7 @@ section .site-text-new{
         margin-bottom: 0px;
     }
 	.body-case-box .text-desc-new{
-		padding-top: 16px;
+		padding-top: 10px;
 		font-size: 15px;
 	}
 	.new-hr-b-b{
@@ -623,7 +623,7 @@ section .site-text-new{
 }
 @media (min-width: 1400px) {
 	.body-case-box .text-desc-new{
-		padding-top: 16px;
+		padding-top: 10px;
 		font-size: 15px;
 	}
 	.new-hr-b-b{
@@ -655,7 +655,7 @@ section .site-text-new{
 }
 @media (min-width: 1600px) {
 	.body-case-box .text-desc-new{
-		padding-top: 16px;
+		padding-top: 10px;
 		font-size: 15px;
 	}
     .hero-block .box-1 span {
