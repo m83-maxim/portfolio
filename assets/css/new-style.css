@@ -383,7 +383,32 @@ section .site-text-new{
 .fv4555 {
     margin-bottom: 50px;
 }
+.btn-boxess a{
+	min-width: 100%;
+}
+.for-hr span {
+    font-size: 14px;
+}
+.hr hr {
+    height: 1px;
+    opacity: 0.06;
+}
+.c-11 {
+    box-shadow: rgb(255, 255, 255, 0.5) 10px 10px 0px 0px !important;
+    transition: 0.3s;
+}
+.c-11:hover {
+    box-shadow: rgba(255, 255, 255, 0) 10px 10px 0px 0px !important;
+    transform: translateY(-5px);
+}
+.c-11 .case-hover a {
+    box-shadow: rgb(255, 255, 255, 0.5) 10px 10px 0px 0px !important;
+    transition: 0.3s;
+}
 @media (min-width: 576px) {
+	.btn-boxess .case-hover {
+        width: 100%;
+    }
 	.fv4555 {
         margin-bottom: 50px;
     }
@@ -443,6 +468,9 @@ section .site-text-new{
 	}
 	.new-design, .new-design-1{
 		padding: 32px;
+	}
+	.for-hr span {
+    	font-size: 13px;
 	}
 }
 @media (min-width: 768px) {
@@ -510,6 +538,9 @@ section .site-text-new{
 	.new-design, .new-design-1{
 		padding: 32px;
 	}
+	.for-hr span {
+    	font-size: 18px;
+	}
 }
 @media (min-width: 992px) {
 	.fv4555 {
@@ -567,6 +598,9 @@ section .site-text-new{
 	.new-design, .new-design-1{
 		padding: 48px;
 	}
+	.for-hr span {
+    	font-size: 16px;
+	}
 }
 @media (min-width: 1200px) {
 	.fv4555 {
@@ -619,6 +653,9 @@ section .site-text-new{
 	}
 	.new-design, .new-design-1{
 		padding: 64px;
+	}
+	.for-hr span {
+    	font-size: 17px;
 	}
 }
 @media (min-width: 1400px) {
